@@ -1,0 +1,37 @@
+// Setup primary html and body settings.
+html{
+  font-size:$fs-html;
+}
+
+body{
+  font-weight: $w-medium;
+  font-size: $fs-p;
+  line-height:$lh-p;
+  color: $c-bodygrey;
+}
+
+// Container padding reset.
+.container{ 
+  padding: 0;
+}
+
+// Remove Bootstrap reverse margin from rows
+.row__no-margin, .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img{ max-width:100%; }
+
+iframe{ width: 100%; }
+
+.input-field{
+  label{
+    font-size:rem(13px);
+  }
+}
+
+.no-gutter{ 
+  padding-left:0 !important; 
+  padding-right:0 !important; 
+}

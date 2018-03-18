@@ -1,0 +1,8 @@
+iframe{
+  &#acca-level-changes{
+    min-height:rem(1250px);
+    @media #{$kp-md}{
+      min-height:rem(1050px);
+    }
+  }
+}
