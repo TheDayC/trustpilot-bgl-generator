@@ -1,0 +1,17 @@
+$primary-color: color("light-blue", "darken-1");
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+
+$secondary-color: color("teal", "lighten-2");
+$success-color: color("green", "base");
+$error-color: color("red", "base");
+$link-color: color("light-blue", "darken-1");
+
+$button-font-size: rem(16px);
+$button-large-icon-font-size:rem(18px);
+$sidenav-font-size: rem(14px);
+$datepicker-display-font-size:rem(16px);
+$input-font-size: rem(16px);
+$input-height: rem(46px);
+$label-font-size:rem(14px);
+$navbar-font-size:rem(16px);

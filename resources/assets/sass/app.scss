@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* Font family imports */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// Vendor CSS
+@import "vendor/rem";
+
+/* 
+ * Materialize SASS - v0.100.2
+ * All of our chosen modules for Materialize, this is where the majority of features come from in our framework.
+ */
+
+// Colors
+@import "./node_modules/materialize-css/sass/components/color";
+
+// Variables;
+@import "./node_modules/materialize-css/sass/components/variables",
+        "atoms/global/variables/materialize";
+
+// Normalize
+@import "./node_modules/materialize-css/sass/components/normalize";
+
+// Materialize components
+@import "./node_modules/materialize-css/sass/components/global",
+        "./node_modules/materialize-css/sass/components/badges",
+        "./node_modules/materialize-css/sass/components/icons-material-design",
+        "./node_modules/materialize-css/sass/components/grid",
+        "./node_modules/materialize-css/sass/components/navbar",
+        "./node_modules/materialize-css/sass/components/roboto",
+        "./node_modules/materialize-css/sass/components/typography",
+        "./node_modules/materialize-css/sass/components/transitions",
+        "./node_modules/materialize-css/sass/components/cards",
+        "./node_modules/materialize-css/sass/components/toast",
+        "./node_modules/materialize-css/sass/components/tabs",
+        "./node_modules/materialize-css/sass/components/tooltip",
+        "./node_modules/materialize-css/sass/components/buttons",
+        "./node_modules/materialize-css/sass/components/dropdown",
+        "./node_modules/materialize-css/sass/components/waves",
+        "./node_modules/materialize-css/sass/components/modal",
+        "./node_modules/materialize-css/sass/components/collapsible",
+        "./node_modules/materialize-css/sass/components/chips",
+        "./node_modules/materialize-css/sass/components/materialbox",
+        "./node_modules/materialize-css/sass/components/forms/forms",
+        "./node_modules/materialize-css/sass/components/table_of_contents",
+        "./node_modules/materialize-css/sass/components/sideNav",
+        "./node_modules/materialize-css/sass/components/preloader",
+        "./node_modules/materialize-css/sass/components/slider",
+        "./node_modules/materialize-css/sass/components/carousel",
+        "./node_modules/materialize-css/sass/components/tapTarget",
+        "./node_modules/materialize-css/sass/components/pulse",
+        "./node_modules/materialize-css/sass/components/date_picker/default",
+        "./node_modules/materialize-css/sass/components/date_picker/default.date",
+        "./node_modules/materialize-css/sass/components/date_picker/default.time";
+
+/* Custom styling */
+
+//Atoms
+ @import "atoms/global/variables/variables",
+         "atoms/global/helpers/functions",
+         "atoms/global/reset/reset";
+
+// Organisms
+@import "organisms/payload/payload";

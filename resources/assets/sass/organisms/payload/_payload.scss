@@ -1,0 +1,25 @@
+/* Create links */
+#payload-repeater{
+  .payload-row{
+    margin:0 0 calc(#{$vs-mod} * 3) 0;
+    position: relative;
+    .input-collection{
+      .input-field{
+        margin-bottom:0;
+      }
+    }
+    .remove{
+      position: absolute;
+      right:0;
+      cursor:pointer;
+      width:auto;
+      display:inline-block;
+      z-index:10;
+    }
+  }
+}
+
+/* Resend emails */
+.spinner-green-only{
+  border-color: $c-green;
+}
